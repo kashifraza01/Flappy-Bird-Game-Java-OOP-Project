@@ -267,15 +267,15 @@ public void keyPressed(KeyEvent e) {
 @Override public void keyReleased(KeyEvent e) {}
 
 public static void main(String[] args) {
-        JFrame frame = new JFrame("Flappy Bird");     // Ek nayi window banao
-        FlappyBird flappyBird = new FlappyBird();     // Game ka object banao
-        frame.add(flappyBird);                        // Game panel ko window me add karo
-        frame.setSize(flappyBird.boardwidth, flappyBird.boardheight); // Window size set karo
-        frame.setLocationRelativeTo(null);            // Window ko screen ke center me lao
-        frame.setResizable(false);                    // Window resize na ho
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close pe program band ho
-        frame.pack();                                 // Auto layout fix karo
-        flappyBird.requestFocus();                    // Game input ka focus le
-        frame.setVisible(true);                       // Window show karo
+        JFrame f = new JFrame("Flappy Bird");     // Ek nayi window banao
+        FlappyBird fb = new FlappyBird();     // Game ka object banao
+        f.add(fb);                        // Game panel ko window me add karo
+        f.setSize(fb.boardwidth, fb.boardheight); // Window size set karo
+        f.setLocationRelativeTo(null);            // Window ko screen ke center me lao
+        f.setResizable(false);                    // Window resize na ho
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close pe program band ho
+        f.pack();                                 // Auto layout fix karo
+        fb.requestFocus();                    // Game input ka focus le
+        f.setVisible(true);                       // Window show karo
     }
 }
