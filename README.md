@@ -2,11 +2,6 @@
 
 A classic **Flappy Bird** clone developed in **Java** using **Swing** for GUI, **AWT** for graphics, and **Timers** for game mechanics. This project demonstrates basic game development concepts like animation, collision detection, scoring, and object-oriented programming in Java.
 
-![Flappy Bird Screenshot](./ss1.png)
-*Replace the above path with your actual screenshot image.*
-
----
-
 ## Features
 
 * Classic Flappy Bird gameplay
@@ -23,7 +18,7 @@ A classic **Flappy Bird** clone developed in **Java** using **Swing** for GUI, *
 
 | Game Running                             | Game Over                                 |
 | ---------------------------------------- | ----------------------------------------- |
-| ![Screenshot1](./flappybird_running.png) | ![Screenshot2](./flappybird_gameover.png) |
+| ![Screenshot1](./ss1.png) | ![Screenshot2](./ss2.png) |
 
 ---
 
